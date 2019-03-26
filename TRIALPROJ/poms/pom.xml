@@ -10,6 +10,7 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>jobs/process/myfirstjob_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <talend.project.name>TRIALPROJ</talend.project.name>
