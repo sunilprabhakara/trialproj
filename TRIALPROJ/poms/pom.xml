@@ -11,13 +11,14 @@
   <modules>
     <module>jobs/process/myfirstjob_0.1</module>
     <module>code/routines</module>
+    <module>jobs/process/mysecondjob_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIALPROJ</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

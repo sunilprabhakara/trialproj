@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.trialproj.job</groupId>
-  <artifactId>MyFirstJob</artifactId>
+  <artifactId>MySecondJob</artifactId>
   <version>0.1.0</version>
-  <name>TRIALPROJ MyFirstJob-0.1.0 (0.1,Job Designs)</name>
+  <name>TRIALPROJ MySecondJob-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -19,12 +19,12 @@
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>trialproj</talend.project.name.lowercase>
-    <talend.job.path>trialproj/myfirstjob_0_1</talend.job.path>
+    <talend.job.path>trialproj/mysecondjob_0_1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TRIALPROJ</talend.project.name>
     <talend.product.version>7.1.1.20181026_1147</talend.product.version>
-    <talend.job.finalName>myfirstjob_0_1</talend.job.finalName>
+    <talend.job.finalName>mysecondjob_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.trialproj.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.trialproj.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,8 +33,8 @@
     <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>MyFirstJob</talend.job.name>
-    <talend.job.id>__6LwQE_JEeme4bwUeqwAVA</talend.job.id>
+    <talend.job.name>MySecondJob</talend.job.name>
+    <talend.job.id>_VX1dQE_NEemj3tAWum94xQ</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.framework></talend.job.framework>
