@@ -24,12 +24,12 @@ import java.math.BigDecimal;
 
 @SuppressWarnings("unused")
 
-public class TalendJavaSourceViewer1 {
+public class TalendJavaSourceViewer2 {
 	private static java.util.Properties context = new java.util.Properties();
 	private static final java.util.Map<String, Object> globalMap = new java.util.HashMap<String, Object>();
 	public void myFunction(){
 	  if( 
-System.out.prinltn(" Here ){
+System.out.println(" Here I Come ....");){
 	}
 	
 }
