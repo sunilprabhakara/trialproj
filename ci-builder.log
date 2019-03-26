@@ -1,0 +1,106 @@
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:35:16 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:35:18 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:35:18 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:35:29 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:35:53 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:35:57 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:35:57 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:46:36 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:47:00 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:47:05 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:47:05 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:51:54 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:51:56 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:51:56 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:52:55 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:53:17 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:53:22 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:53:22 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:56:35 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:56:37 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:56:37 IST 2019
+OUTPUT>
+OUTPUT>[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+OUTPUT>[INFO] Setting property: velocimacro.messages.on => 'false'.
+OUTPUT>[INFO] Setting property: resource.loader => 'classpath'.
+OUTPUT>[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+OUTPUT>Start to check local patches....
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>COMPLETED at Tue Mar 26 20:57:34 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:57:56 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:58:01 IST 2019
+OUTPUT>
+OUTPUT>COMPLETED at Tue Mar 26 20:58:01 IST 2019
+OUTPUT>

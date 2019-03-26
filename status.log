@@ -1,0 +1,4 @@
+0:COMPLETED InitLocalCommand initLocal
+1:COMPLETED LogonProjectCommand log on TRIALPROJ
+2:COMPLETED BuildItemSourcesCommand buildItemSources '__6LwQE_JEeme4bwUeqwAVA' -iv '0.1'
+3:COMPLETED LogoffProjectCommand log off

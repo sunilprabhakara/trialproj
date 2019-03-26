@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\.metadata\.plugins\org.eclipse.jdt.core
