@@ -1,0 +1,49 @@
+[WARNING] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building TRIALPROJ MyFirstJob-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for log4j:log4j:jar:1.2.17 is missing, no dependency information available
+[INFO] 
+[INFO] --- builder-maven-plugin:7.1.1:generate (default) @ MyFirstJob ---
+[WARNING] The POM for commons-lang:commons-lang:jar:2.6 is missing, no dependency information available
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ MyFirstJob ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ MyFirstJob ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ MyFirstJob ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ MyFirstJob ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ MyFirstJob ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ MyFirstJob ---
+[INFO] Building jar: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\poms\jobs\process\myfirstjob_0.1\target\myfirstjob_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ MyFirstJob ---
+[INFO] Reading assembly descriptor: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\poms\jobs\process\myfirstjob_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for log4j:log4j:jar:1.2.17
+[INFO] Building zip: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\poms\jobs\process\myfirstjob_0.1\target\myfirstjob_0_1.zip
+[INFO] 
+[INFO] --- signer-maven-plugin:7.1.1:sign (sign) @ MyFirstJob ---
+[WARNING] The POM for commons-codec:commons-codec:jar:1.10 is missing, no dependency information available
+[INFO] Start to sign the job artifact
+[INFO] Start to sign artifact, the source file is myfirstjob_0_1.zip and target file is myfirstjob_0_1_sign_.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.843 s
+[INFO] Finished at: 2019-03-26T18:57:19+05:30
+[INFO] Final Memory: 17M/412M
+[INFO] ------------------------------------------------------------------------
