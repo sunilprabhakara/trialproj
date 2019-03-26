@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId></groupId>
+    <groupId>org.example.trialproj</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.1.1</version>
     <relativePath>../../../</relativePath>
   </parent>
-  <groupId>.job</groupId>
+  <groupId>org.example.trialproj.job</groupId>
   <artifactId>MyFirstJob</artifactId>
   <version>0.1.0</version>
   <name>TRIALPROJ MyFirstJob-0.1.0 (0.1,Job Designs)</name>
@@ -25,8 +25,8 @@
     <talend.project.name>TRIALPROJ</talend.project.name>
     <talend.product.version>7.1.1.20181026_1147</talend.product.version>
     <talend.job.finalName>myfirstjob_0_1</talend.job.finalName>
-    <talend.pigudf.groupid>.pigudf</talend.pigudf.groupid>
-    <talend.routine.groupid>.code</talend.routine.groupid>
+    <talend.pigudf.groupid>org.example.trialproj.pigudf</talend.pigudf.groupid>
+    <talend.routine.groupid>org.example.trialproj.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.context>Default</talend.job.context>
@@ -43,7 +43,7 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>.code</groupId>
+      <groupId>org.example.trialproj.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.1.1</version>
     </dependency>
