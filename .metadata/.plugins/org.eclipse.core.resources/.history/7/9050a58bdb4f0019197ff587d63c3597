@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_ivq4sU_bEemR8s-aFfP8fA" label="TRIALPROJ" description="from CI Builder" language="java" technicalLabel="TRIALPROJ" local="true" author="_ixF1AE_bEemR8s-aFfP8fA" bigData="false"/>
-  <TalendProperties:User xmi:id="_ixF1AE_bEemR8s-aFfP8fA" login="jobbuilder@talend.com"/>
-</xmi:XMI>

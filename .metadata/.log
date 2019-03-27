@@ -1514,3 +1514,849 @@ org.osgi.service.prefs.BackingStoreException: Exception loading preferences from
 
 !ENTRY org.talend.commandline 1 0 2019-03-26 20:58:01.733
 !MESSAGE Shutting down Command Line Application
+!SESSION 2019-03-26 21:04:53.012 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_8649104342203355367.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master scriptFile script_command_8649104342203355367.txt
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:05:38.757
+!MESSAGE 2019-03-26 21:05:38,750 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.1.1.20181026_1147   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:38.873
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.eclipse.core.resources 4 567 2019-03-26 21:05:39.020
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-26 21:05:39.020
+!MESSAGE Could not read metadata for 'TRIALPROJ'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'TRIALPROJ' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:864)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:715)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1565)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2464)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2219)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:447)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:754)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.talend.core.runtime.util.JavaHomeUtil.initializeJavaHome(JavaHomeUtil.java:57)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:94)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-26 21:05:39.028
+!MESSAGE The project description file (.project) for 'TRIALPROJ' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:39.211
+!MESSAGE Current JVM used: C:\Program Files\Java\jdk1.8.0_144
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:05:40.469
+!MESSAGE 2019-03-26 21:05:40,469 INFO  org.talend.commons.exception.CommonExceptionHandler  - PatchInstall_20181115130030100.report is not a zip file.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:05:40.688
+!MESSAGE 2019-03-26 21:05:40,688 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:41.772
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:41.774
+!MESSAGE COMPLETED at Tue Mar 26 21:05:41 IST 2019
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-03-26 21:05:41.845
+!MESSAGE 2019-03-26 21:05:41,845 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:43.820
+!MESSAGE createProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:43.821
+!MESSAGE COMPLETED at Tue Mar 26 21:05:43 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:43.842
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:43.842
+!MESSAGE COMPLETED at Tue Mar 26 21:05:43 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:05:43.905
+!MESSAGE Shutting down Command Line Application
+!SESSION 2019-03-26 21:05:46.822 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_8649104342203355367.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master scriptFile script_command_8649104342203355367.txt
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:33.863
+!MESSAGE 2019-03-26 21:06:33,859 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.1.1.20181026_1147   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:33.972
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:34.289
+!MESSAGE Current JVM used: C:\Program Files\Java\jdk1.8.0_144
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:35.659
+!MESSAGE 2019-03-26 21:06:35,659 INFO  org.talend.commons.exception.CommonExceptionHandler  - PatchInstall_20181115130030100.report is not a zip file.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:35.866
+!MESSAGE 2019-03-26 21:06:35,866 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:36.947
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:36.947
+!MESSAGE COMPLETED at Tue Mar 26 21:06:36 IST 2019
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-03-26 21:06:37.025
+!MESSAGE 2019-03-26 21:06:37,025 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.eclipse.core.resources 4 4 2019-03-26 21:06:37.210
+!MESSAGE Exception loading preferences from: /TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:386)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:497)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+Caused by: java.io.FileNotFoundException: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	... 54 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-03-26 21:06:37.210
+!MESSAGE File not found: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs.
+!STACK 0
+java.io.FileNotFoundException: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:497)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2019-03-26 21:06:37.210
+!MESSAGE Exception loading preferences from: C:/Talend/Talend-Studio-TrialAccount/workspace/.repositories/393343218/master/TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception loading preferences from: /TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:505)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:52.228
+!MESSAGE 2019-03-26 21:06:52,228 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:52.228
+!MESSAGE 2019-03-26 21:06:52,228 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\Talend-Studio-TrialAccount\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:55.523
+!MESSAGE 2019-03-26 21:06:55,523 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TrialProj
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:58.957
+!MESSAGE logonProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:06:58.957
+!MESSAGE COMPLETED at Tue Mar 26 21:06:58 IST 2019
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:59.280
+!MESSAGE 2019-03-26 21:06:59,280 INFO  com.oaklandsw.transform.infrequent  - Starting runtime: Data Mapper (7) Version: 7.1.1.20181024_1514 at: file:/C:/Talend/Talend-Studio-TrialAccount/workspace/.repositories/393343218/master (1231684154) started: 20190326_210659.195
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:59.410
+!MESSAGE 2019-03-26 21:06:59,402 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.builtin
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-26 21:06:59.473
+!MESSAGE 2019-03-26 21:06:59,473 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.examples
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:07:03.763
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:07:03.764
+!MESSAGE COMPLETED at Tue Mar 26 21:07:03 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:07:03.905
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:07:03.906
+!MESSAGE COMPLETED at Tue Mar 26 21:07:03 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-26 21:07:04.003
+!MESSAGE Shutting down Command Line Application
+!SESSION 2019-03-27 10:13:50.863 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_8671319725193854042.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master scriptFile script_command_8671319725193854042.txt
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:14:50.100
+!MESSAGE 2019-03-27 10:14:50,100 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.1.1.20181026_1147   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:50.232
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.eclipse.core.resources 4 567 2019-03-27 10:14:50.410
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-27 10:14:50.410
+!MESSAGE Could not read metadata for 'TRIALPROJ'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'TRIALPROJ' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:864)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:715)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1565)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2464)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2219)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:447)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:754)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.talend.core.runtime.util.JavaHomeUtil.initializeJavaHome(JavaHomeUtil.java:57)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:94)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-27 10:14:50.413
+!MESSAGE The project description file (.project) for 'TRIALPROJ' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:50.648
+!MESSAGE Current JVM used: C:\Program Files\Java\jdk1.8.0_144
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:14:52.101
+!MESSAGE 2019-03-27 10:14:52,101 INFO  org.talend.commons.exception.CommonExceptionHandler  - PatchInstall_20181115130030100.report is not a zip file.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:14:52.307
+!MESSAGE 2019-03-27 10:14:52,307 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:53.504
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:53.504
+!MESSAGE COMPLETED at Wed Mar 27 10:14:53 IST 2019
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-03-27 10:14:53.554
+!MESSAGE 2019-03-27 10:14:53,554 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:55.700
+!MESSAGE createProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:55.700
+!MESSAGE COMPLETED at Wed Mar 27 10:14:55 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:55.715
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:55.715
+!MESSAGE COMPLETED at Wed Mar 27 10:14:55 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:14:55.769
+!MESSAGE Shutting down Command Line Application
+!SESSION 2019-03-27 10:14:58.489 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_8671319725193854042.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -data C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master scriptFile script_command_8671319725193854042.txt
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:15:43.139
+!MESSAGE 2019-03-27 10:15:43,135 INFO  org.talend.platform.logging.Activator  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 7.1.1.20181026_1147   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:15:43.251
+!MESSAGE Starting up Command Line Application
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:15:43.589
+!MESSAGE Current JVM used: C:\Program Files\Java\jdk1.8.0_144
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:15:44.849
+!MESSAGE 2019-03-27 10:15:44,849 INFO  org.talend.commons.exception.CommonExceptionHandler  - PatchInstall_20181115130030100.report is not a zip file.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:15:45.036
+!MESSAGE 2019-03-27 10:15:45,035 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:15:46.354
+!MESSAGE initLocal
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:15:46.354
+!MESSAGE COMPLETED at Wed Mar 27 10:15:46 IST 2019
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-03-27 10:15:46.542
+!MESSAGE 2019-03-27 10:15:46,541 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.eclipse.core.resources 4 4 2019-03-27 10:15:46.741
+!MESSAGE Exception loading preferences from: /TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:386)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:497)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+Caused by: java.io.FileNotFoundException: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	... 54 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2019-03-27 10:15:46.742
+!MESSAGE File not found: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs.
+!STACK 0
+java.io.FileNotFoundException: C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\.settings\org.eclipse.core.resources.prefs (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:377)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:497)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2019-03-27 10:15:46.744
+!MESSAGE Exception loading preferences from: C:/Talend/Talend-Studio-TrialAccount/workspace/.repositories/393343218/master/TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception loading preferences from: /TRIALPROJ/.settings/org.eclipse.core.resources.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:505)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:482)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:534)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:668)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.resources.CharsetManager.getPreferences(CharsetManager.java:318)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.processEntryChanges(CharsetManager.java:163)
+	at org.eclipse.core.internal.resources.CharsetManager$ResourceChangeListener.resourceChanged(CharsetManager.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.talend.core.repository.utils.XmiResourceManager.hasTalendProjectFile(XmiResourceManager.java:128)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1108)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1086)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProjects(LocalRepositoryFactory.java:1075)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.readProject(LocalRepositoryFactory.java:1152)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.readProject(ProxyRepositoryFactory.java:695)
+	at org.talend.commandline.util.RepositoryHandler.logonProject(RepositoryHandler.java:83)
+	at org.talend.commandline.command.CommandProcessor.logonProject(CommandProcessor.java:138)
+	at org.talend.commandline.command.CommandProcessorSwitch.caseLogonProjectCommand(CommandProcessorSwitch.java:146)
+	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:54)
+	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:288)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:421)
+	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:731)
+	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:267)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:218)
+	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:205)
+	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:262)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:04.438
+!MESSAGE 2019-03-27 10:16:04,438 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Talend\Talend-Studio-TrialAccount\workspace\.repositories\393343218\master\TRIALPROJ\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:04.439
+!MESSAGE 2019-03-27 10:16:04,439 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\Talend-Studio-TrialAccount\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:08.939
+!MESSAGE 2019-03-27 10:16:08,938 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TrialProj
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:13.853
+!MESSAGE logonProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:13.855
+!MESSAGE COMPLETED at Wed Mar 27 10:16:13 IST 2019
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:14.434
+!MESSAGE 2019-03-27 10:16:14,434 INFO  com.oaklandsw.transform.infrequent  - Starting runtime: Data Mapper (7) Version: 7.1.1.20181024_1514 at: file:/C:/Talend/Talend-Studio-TrialAccount/workspace/.repositories/393343218/master (402905282) started: 20190327_101614.253
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:14.693
+!MESSAGE 2019-03-27 10:16:14,693 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.builtin
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-27 10:16:14.744
+!MESSAGE 2019-03-27 10:16:14,743 INFO  com.oaklandsw.transform.infrequent  - Loading data plugin: com.oaklandsw.data.transform.examples
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:19.407
+!MESSAGE buildItemSources
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:19.408
+!MESSAGE COMPLETED at Wed Mar 27 10:16:19 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:19.525
+!MESSAGE logoffProject
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:19.526
+!MESSAGE COMPLETED at Wed Mar 27 10:16:19 IST 2019
+
+
+!ENTRY org.talend.commandline 1 0 2019-03-27 10:16:19.583
+!MESSAGE Shutting down Command Line Application
